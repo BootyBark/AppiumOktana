@@ -12,6 +12,7 @@ public class LandingPageTests extends BaseTest {
     public void tappingLogInButton() {
         landingPage.verifyLandingPage();
         landingPage.clickOnLoginButton();
+        loginPage.verifyLogInScreen();
     }
 
     @Test
